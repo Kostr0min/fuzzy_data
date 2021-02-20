@@ -28,9 +28,3 @@ class FuzzyData:
                 df[col] = df[col].apply(lambda x: make_cols(elem, params))
 
         return df
-
-
-fd = FuzzyData()
-cfg = fd.generate_data()
-
-print(cfg)
