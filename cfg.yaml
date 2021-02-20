@@ -1,0 +1,23 @@
+table_2077:
+    shape:
+        [20, 5]
+    columns:
+        string_columns:
+            str_column:
+                len: 5
+                has_lower: True
+                has_upper: True
+                has_digit: True
+        integer_columns:
+            int_column:
+                len: 6
+            int_column_1:
+                len: 10
+        datetime_columns:
+            date_column:
+                start_date: '2021-01-01'
+                end_date: '2021-12-31'
+                format: '%Y-%m-%d'
+        bool_columns:
+            bool_column:
+                zero_ones: True
