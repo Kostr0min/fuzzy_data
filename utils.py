@@ -37,3 +37,15 @@ def make_datetime(params):
     random_number_of_days = random.randrange(days_between_dates)
     random_date = start_date + datetime.timedelta(days=random_number_of_days)
     return random_date
+
+
+def make_cols(flag, params):
+    if flag == 'string_columns':
+        return make_str(params)
+    elif flag == 'integer_columns':
+        return make_int(params)
+    elif flag == 'bool_columns':
+        return make_bin(params)
+    elif flag == 'datetime_columns':
+        return make_datetime(params)
+    return None
