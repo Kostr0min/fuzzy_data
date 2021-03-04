@@ -1,0 +1,15 @@
+{
+  "row_count": 10,
+  "columns": [
+    {
+      "column_name": "name1",
+      "column_type": "string",
+      "properties": {
+        "len": 5,
+        "has_lower": true,
+        "has_upper": true,
+        "has_digit": true
+      }
+    }
+  ]
+}
